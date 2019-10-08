@@ -1,0 +1,42 @@
+---
+label: A test template
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: linktitle
+  label: linktitle
+- type: field_group
+  name: nomenu
+  label: nomenu
+  fields:
+  - type: field_group
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: parent
+      label: parent
+- type: text
+  name: next
+  label: next
+- type: text
+  name: prev
+  label: prev
+- type: text
+  name: title
+  label: title
+- type: number
+  name: weight
+  label: weight
+- type: file
+  name: image
+  label: image
+- type: file
+  name: authorAvatar
+  label: authorAvatar
